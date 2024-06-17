@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney-Hoster</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/DisneyHotstar logo.png" alt="">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href=""><img src="./images/icons8-user-50.png" alt=""></a></li>
+                <li><a href="#search"><img src="./images/icons8-search-50.png" alt=""></a></li>
+                <li><a href="#home"><img src="./images/icons8-home-50.png" alt=""></a></li>
+                <li><a href="#catagories"><img src="./images/icons8-categories-50.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="body">
+        <div class="space">
+            <div class="boxhelp">
+                <h1> help & support</h1>
+            </div>
+            <div class="img">
+                <img src="./images/Screenshot_2024-06-15_195658-removebg-preview.png" alt="">
+                <h1>login to Disney+Hoster</h1>
+                <h4>strat watching from where you left off, personalise for kids and more</h4>
+                <button>log in</button>
+            </div>
+        </div>
+        <div class="search" id="search">
+            <input type="text" placeholder="movies,shows and more">
+            <h3> trending in india</h3>
+            <div class="cont1" id="moviesearch">
+            </div>
+
+        </div>
+        <div class="home" id="home">
+            <div class="firstimg">
+                <img src="./images/match.png" alt="">
+                <div class="text">
+                    <h1>wimbledon</h1>
+                    <h5>starts from july 1</h5>
+                    <button>explore</button>
+                </div>
+            </div>
+            <div class="curosol">
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img id="img" src="./images/curosel/img1.jpeg" class="carousel-image active">
+
+                    </div>
+                    <button class="carousel-button prev" onclick="changeimage()">❮</button>
+                    <button class="carousel-button next" onclick="changeimage()">❯</button>
+
+                </div>
+                <div class="cont2"  id="moviesearch1">
+                   
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="catagories" id="catagories">
+            <div class="topic1" id="topic1">
+
+            </div>
+            <h1>popular languages</h1>
+            <div class="topic2" id="topic2">
+
+            </div>
+            <h1>popular channles</h1>
+            <div class="topic3" id="topic3">
+
+            </div>
+            <h1>popular genres</h1>
+            <div class="topic4" id="topic4">
+
+            </div>
+            <h1>popular sports</h1>
+            <div class="topic5" id="topic5">
+
+            </div>
+        </div>
+    </div>
+    <script src="./data.js"></script>
+</body>
+
+</html>

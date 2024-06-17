@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0F1014;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 20vh;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 30vh;
+    width: 100%;
+    background: linear-gradient(#0e285cc5, #0F1014);
+}
+
+.logo img {
+    height: 10vh;
+    background: linear-gradient(#0a1c3fd4,#0f1f40);
+    margin-top: 2vh;
+}
+
+.links {
+    height: 70vh;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content:
+        space-evenly;
+        transition: all 0.5s;
+}
+.links:hover{
+    transform: scale(1.03);
+}
+
+.links img {
+    display: block;
+    height: 3vh;
+    margin: 4vh auto;
+    transition: all 2;
+}
+.links img:hover{
+    transform: scale(1.32);
+}
+.space{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#0e285cc5, #0F1014,#0F1014,#0F1014);
+   
+}
+.boxhelp{
+    position: absolute;
+    height: 7vh;
+    width: 30vh;
+    border-radius: 7px;
+    background-color: rgba(240, 248, 255, 0.085);
+    right: 15vh;
+    top: 7vh;
+    transition: all 1s;
+
+}
+.boxhelp h1{
+    color: white;
+    background: transparent;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 2vh;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.boxhelp:hover{
+    background-color: rgba(240, 248, 255, 0.397);
+    transform: scale(1.03);
+}
+.img{
+    background-color: transparent;
+}
+.img img{
+    position: absolute;
+     top: 5vh;
+     left: 35%;
+    background-color: transparent;
+}
+.img h1{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.img h4{
+    color: rgba(255, 255, 255, 0.458);
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 7px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.img button{
+    display: block;
+    margin: 2vh auto;
+    height: 7vh;
+    width: 35vh;
+    background: linear-gradient(45deg,#0856DF,#072C9C);
+    border: none;
+    border-radius: 10px;
+    color:  white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition:  all 1s ;
+
+}
+.img button:hover{
+    transform: scale(1.04);
+}
+/* -------------------------search---------------------------- */
+.search{
+    height: 100vh;
+    width: 100%;
+    background-color: #0F1014;
+}
+.search input{
+    color: white;
+    margin-top: 5vh;
+    margin-left: 25vh;
+    width: 85%;
+    height: 10vh;
+    background-color: #252833;
+    text-transform: capitalize;
+    padding-left: 5vh;
+    outline: none;
+    font-size: 25px;
+    border: none;
+    border-bottom: solid 1px grey;
+
+}
+.search input::placeholder{
+    color: rgba(128, 128, 128, 0.682);
+    font-size: 25px;
+}
+.search input:focus{
+    border-bottom: solid 1px blue;
+}
+.search h3{
+    color:  white;
+    margin-left: 25vh;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+.cont1{
+    height: 70vh;
+    width: 85%;
+    margin: 3vh  auto 0 25vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+}
+#hello{
+    height: 40vh;
+    width: 25vh;
+ 
+}
+#hello img{
+    height: 100%;
+    width: 100%;
+    
+}
+#hello img:hover{
+    transform: scale(1.32);
+
+}
+
+/* ---------------------home------------ */
+.home{
+    height: 200vh;
+    width: 100%;
+    background-color: #0F1014;
+}
+
+.firstimg{
+    height: 35vh;
+    width: 80%;
+    margin-left: 25vh;
+    background: linear-gradient(#15171d,#15171D);
+    display: flex;
+    padding-top: 7vh;
+}
+.firstimg img{
+    height: 100%;
+}
+.firstimg .text{
+    background-color: transparent;
+    letter-spacing: 0.5px;
+}
+.firstimg h1{
+    background-color: transparent;
+    font-size: 18px;
+    margin: 7vh 0 0 7vh;
+    font-weight: 500;
+}
+.firstimg h5{
+  color: rgb(192, 192, 192);
+  margin-left: 7vh;
+  font-weight: 400;
+  background-color: transparent;
+}
+.firstimg button{
+    height: 7vh;
+    width: 25vh;
+    margin: 12vh 0 0 7vh;
+    border-radius: 10px;
+    background: #252833;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.curosol{
+    height: 70vh;
+    width: 85%;
+    margin-left: 25vh;
+    margin-top: 5vh;
+    transition: all 3s;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    display: none;
+}
+
+.carousel-image.active {
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 0 10px;
+    z-index: 10;
+}
+.carousel-button:active{
+    transform: scalex(0.99);
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+.cont2{
+    height: 70vh;
+    width: 100%;
+    margin: 3vh  auto 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+}
+.catagories{
+    height: 100vh;
+    width: 85%;
+    margin-left: 25vh;
+}
+
+.topic1,.topic2,.topic3,.topic4,.topic5{
+    height: 20vh;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    cursor: pointer;
+}
+#video2{
+    display: flex;
+}
+#video2 video{
+    height: 100%;
+    width: 90%;
+}
+.catagories h1{
+    font-size: 20px;
+    margin-top: 5vh;
+}
+.topic2 img,.topic3 img, .topic4 img, .topic5 img{
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.topic2 img:hover,.topic3 img:hover, .topic4 img:hover, .topic5 img:hover{
+    transform: scale(1.23);
+   
+}
